@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ListRoot" onMouseClicked="#selectMusic" prefHeight="70.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layout.ListController">
+   <children>
+      <ImageView fx:id="imgView" fitHeight="61.0" fitWidth="85.0" layoutX="8.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="lblRealTitle" layoutX="86.0" layoutY="10.0" prefHeight="15.0" prefWidth="220.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="lblArtist" layoutX="86.0" layoutY="41.0" prefHeight="15.0" prefWidth="220.0" text="Label" textFill="#777777" />
+   </children>
+</AnchorPane>
